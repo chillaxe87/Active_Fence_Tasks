@@ -1,0 +1,17 @@
+{
+  "name": "rabbit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "consumer.js",
+  "scripts": {
+    "publish": "node publisher.js",
+    "consume1": "node consumer1.js",
+    "consume2": "node consumer2.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.8.0"
+  }
+}
